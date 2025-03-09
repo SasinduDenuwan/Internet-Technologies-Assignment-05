@@ -1,0 +1,58 @@
+#about{
+    /* height: 100vh; */
+           
+}
+
+.hero-image-about img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 10px rgba(2, 249, 11, 0.5);
+
+}
+
+.information-container{
+    margin: 0 50px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.small-intro{
+    font-weight: bolder;
+}
+
+.education{
+    margin-top: 50px;
+}
+
+.small-text{
+    margin-top: 25px;
+}
+
+.ava{
+    color: green;
+}
+
+.aboutHero{
+    padding: 20px 20px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 10px rgba(2, 249, 11, 0.5);
+
+}
+
+.simple-color{
+    color: gray;
+}
+
+@media screen and (max-width:643px) {
+    .hero-image-about img{
+        width: 50%;
+        height: 50%;
+    }
+}
